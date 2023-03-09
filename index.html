@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fc4dddc4e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="container  main-nav flex">
+           <a href="#" class="company-logo">
+             <img src="logo.png" alt="">         
+              </a> 
+           <div class="nav-links " id="nav-links">
+            <ul class="flex">
+                <li><a href="#" class="hover-links" >Products</a></li>
+                <li><a href="#" class="hover-links"> Customer</a></li>
+                <li><a href="#" class="hover-links">Pricing</a></li>
+                <li><a href="#" class="hover-links">Order</a></li>
+                <li><a href="#" class="hover-links secondary-btn">SignIn</a></li>
+                <li><a href="#" class="hover-links primary-btn">SignUp</a></li>
+               
+            </ul>
+           </div>
+           <a href="#" class="nav-toggle hover-links" id="nav-toggle" >
+            <i class="fa-solid fa-bars"></i>
+           </a>
+        </div>
+     </nav>
+     <div class="container">
+        <div class="hero">
+            <div class="hero_image">
+                <img src="hero_image.png" alt="">
+            </div>
+            <div class="hero_content">
+                <div class="tag">
+                    50%OFF on All Products
+                </div> 
+                <h1>Enjoy your Delicious Food</h1>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming.
+                Try it for Once.
+                </p>
+                <button class="explore_btn">
+                    Explore Now
+                </button>
+            </div>
+        </div>
+        <section class="features">
+            <div class="feature">
+                <img src="discount.png" alt="">
+          
+             <div class="feature_content">
+                <h3>Discount Voucher</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+             </div>
+             <div class="feature">
+                <img src="fresh.png" alt="">
+            
+             <div class="feature_content">
+                <h3>Fresh Healthy Food</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+             </div>
+             <div class="feature">
+                <img src="delivery.png" alt="">
+            
+             <div class="feature_content">
+                <h3>Fast Home Delivery</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+             </div>
+        </section>
+        <div class="divider"></div>
+        <div class="menu">
+          <div class="tag">
+            Our Menu
+          </div>
+          <h2>Explore Our Menu</h2>
+          <div class="grid">
+            <div class="item1">
+                <img class="grid_image" src="grid_image1.png" alt="">
+            </div>
+            <div class="item2">
+                <img  class="grid_image"src="grid_image2.png" alt="">
+            </div>
+            <div class="item3">
+                <img  class="grid_image" src="grid_image3.png" alt="">
+            </div>
+            <div class="item4">
+                <img  class="grid_image" src="grid_image4.png" alt="">
+            </div>
+            <div class="item5">
+                <img  class="grid_image" src="grid_image5.png" alt="">
+            </div>
+            <div class="item6">
+                <img   class="grid_image" src="grid_image6.png" alt="">
+            </div>
+            <div class="item7">
+                <img   class="grid_image" src="grid_image7.png" alt="">
+            </div>
+          </div>
+        </div>
+     </div>
+    <footer>
+        <div class="footer_container container">
+            <div class="footer_logo">
+                <img src="logo.png" alt="">
+            </div>
+           <div class="link_lists">
+            <h3>Main Links</h3>
+            <ul>
+                <li> Order Tracking </li>
+                <li> New Order </li>
+                <li> Contact Us </li>
+                <li> News And Blogs </li>
+            </ul>
+           </div>
+           <div class="link_lists">
+            <h3>Support</h3>
+            <ul>
+                <li> About Us </li>
+                <li> Privacy Policy </li>
+                <li> Terms & Conditions</li>
+                
+            </ul>
+           </div>
+       <div class="new_letter">
+        <h3>Support</h3>
+        <input type="email" placeholder="Enter your Email">
+        <h3>Follow us</h3>
+        <div class="icon_container">
+            <a  href="https://www.facebook.com/"
+            target="_blank" class="class">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/home " class="class">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a  href="https://www.facebook.com/"
+            target="_blank" class="class">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/home " class="class">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+       </div>
+        </div>
+    </footer>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+        toggleButton.addEventListener('click',() => {
+          navLinks.classList.toggle('active');
+        })
+      </script>
+     
+</body>
+</html>
